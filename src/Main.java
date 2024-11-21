@@ -18,6 +18,7 @@ public class Main {
         System.out.println(randomAgeAccessOutside);
 
     }
+    //Проверка
     public static String accessForWalking (int ageOfMan, int temperatureOutside){ /*Changed double to int*/
         String walking = "Можно идти гулять";
         if (ageOfMan >= 20 && ageOfMan <= 45 && temperatureOutside >= -20 && temperatureOutside <= 30) {
